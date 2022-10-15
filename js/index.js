@@ -1,13 +1,13 @@
 function fetchData() {
-  fetch("https://dog.ceo/api/breeds/list/all")
+  fetch("https://dog.ceo/api/breeds/list")
     .then((res) => {
       return res.json();
     })
     .then((data) => {
       console.log("data", data.message);
-      const html = data.message.terrier.map((items) => {
+      const html = data.message.map((items) => {
         return `
-        <a href='./puppy.html' ><div>${items}</div></a>
+        <span><a href='./puppy.html' ><li id="lName">${items}</li></a></span>
         `;
       });
       //   console.log(html);

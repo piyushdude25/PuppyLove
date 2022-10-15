@@ -1,0 +1,21 @@
+/* * {
+  margin: 5%;
+  padding: 5%;
+} */
+#heading {
+  text-decoration: none;
+  color: rgb(8, 8, 8);
+}
+#lName {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+a:link {
+  text-decoration: none;
+}
+iframe {
+  width: 50%;
+  height: 80px;
+
+  /* border: 3px solid red !important; */
+}
